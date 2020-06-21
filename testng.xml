@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="FrameworkDDT.Tests.DataDrivenTest"/>
+      <class name="TestNG.ParallelTest"/>
+      <class name="FrameworkPOM.PageFactory.FacebookLoginTestPageFactory"/>
+      <class name="main.seven.piscCompare"/>
+      <class name="TestNG.Exception"/>
+      <class name="TestNG.TestNGGrouping2"/>
+      <class name="TestNG.TestNGPriority"/>
+      <class name="TestNG.TestNGGrouping1"/>
+      <class name="TestNG.Child"/>
+      <class name="main.seven.Grid"/>
+      <class name="main.seven.test"/>
+      <class name="main.seven.timeHar"/>
+      <class name="TestNG.FactoryTest"/>
+      <class name="TestNG.TestNGAnnotation2"/>
+      <class name="main.seven.time"/>
+      <class name="main.seven.Headless"/>
+      <class name="main.seven.Result"/>
+      <class name="main.seven.HTMLUnit"/>
+      <class name="TestNG.Timeout"/>
+      <class name="FrameworkHybrid.HybridFrameworkApp"/>
+      <class name="TestNG.FacebookLoginDataProvider"/>
+      <class name="FrameworkKeywordDrivenTesting.Tests.application"/>
+      <class name="FrameworkPOM.withoutPageFactory.FacebookLoginTest"/>
+      <class name="TestNG.TestNGAnnotation"/>
+      <class name="main.seven.pics"/>
+      <class name="TestNG.TestNGDependency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

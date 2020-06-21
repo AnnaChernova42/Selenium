@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GRID SAMPLE TEST" thread-count="2">
+<!-- <suite name="GRID SAMPLE TEST" parallel="tests" thread-count="3"> -->
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER ch">
+    <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name ="Grid"/>
+        </classes>
+    </test>
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF ">
+    <parameter name ="browserType" value="firefox"/>
+        <classes>
+            <class name ="Grid"/>
+        </classes>
+    </test>
+</suite>

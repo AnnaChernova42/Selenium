@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Testq(failed)">
+    <classes>
+      <class name="TestNG.Exception">
+        <methods>
+          <include name="negativeTestWithOtherMistake"/>
+          <include name="positiveTest"/>
+          <include name="negativeTestOtherText"/>
+        </methods>
+      </class> <!-- TestNG.Exception -->
+    </classes>
+  </test> <!-- Testq(failed) -->
+</suite> <!-- Failed suite [Suite] -->
